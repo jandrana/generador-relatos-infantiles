@@ -99,9 +99,7 @@ def generate_pdf(story: Story):
 		out_dir = "output"
 		os.makedirs(out_dir, exist_ok=True)
 
-		# Create a safe filename from the title
-		# put date and time on filename to avoid overwriting
-		filename = f"generated_story_{date.today()}_{datetime.now().strftime('%H-%M-%S')}.pdf"
+		filename = "generated_story.pdf"
 		out_path = os.path.join(out_dir, filename)
 
 		pdf = FPDF()

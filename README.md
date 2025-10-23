@@ -62,6 +62,7 @@ Salidas previstas:
 ## Fases del desarrollo
 - [x] Configuración del entorno y dependencias.
 - [x] Implementación de generación de relatos con Google GenAI.
+- [x] Estructuración del output de la API con Pydantic para validar y generar el relato.
 - [x] Manejo de errores y reintentos.
 - [x] Generación de trazas al fallar.
 - [x] Exportación a PDF.
